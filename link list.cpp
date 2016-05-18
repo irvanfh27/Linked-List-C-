@@ -198,7 +198,7 @@ void hapusBelakang(){
 if (head ==NULL ){
 cout<<"Linked List Kosong "<<endl;
 }else {
-cout<<"Data yang dihapus adalah"<<tail->data<<end;
+cout<<"Data yang dihapus adalah"<<tail->data<<endl
 bantu=head;
 while(bantu->next != tail){
 bantu=bantu->next;
